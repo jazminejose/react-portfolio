@@ -10,12 +10,12 @@ const About = () => {
         variant='danger'
       >
         <h1>Jazmine Jose</h1>
-        <p>
-          <img src={selfie} alt='selfie' />
-          Welcome to my react portfolio!<br></br>
-          Majored in Psychology but switched it up and now I am aspiring web developer.<br></br>Currently attending UCI Coding Bootcamp.<br></br>
-          Cant wait to use my new found skillset in the world of coding.
-        </p>
+        <p><img src={selfie} alt='selfie' /></p>
+        <p>Welcome to my react portfolio!</p>
+        <p>Majored in Psychology but switched it up and now I am aspiring web developer.</p>
+        <p>Currently attending UCI Coding Bootcamp.</p>
+        <p>Cant wait to use my new found skillset in the world of coding.</p>
+
         <hr />
         <p className='mb-0'>
 

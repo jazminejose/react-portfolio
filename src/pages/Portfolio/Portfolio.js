@@ -138,12 +138,13 @@ const Portfolio = () => {
             </Col>
             <Col sm>
               <Card border='secondary' style={{ width: '25rem' }}>
-                <Card.Header>Budget Tracking</Card.Header>
+                <Card.Header>Pocket Change</Card.Header>
                 <Card.Body>
-                  <Card.Title>Budget Tracking</Card.Title>
                   <Card.Text>
-                    Budget Tracking Text
+                    Budget Tracking App
                   </Card.Text>
+                  <Button variant='outline-danger' href='https://github.com/jazminejose/pocket-change'>GitHub</Button>{' '}
+                  <Button variant='outline-danger' href='/'>Heroku</Button>
                 </Card.Body>
               </Card>
             </Col>

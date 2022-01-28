@@ -1,5 +1,6 @@
 
 import Alert from 'react-bootstrap/Alert'
+import Button from 'react-bootstrap/Button'
 
 const Contact = () => {
   return (
@@ -8,8 +9,10 @@ const Contact = () => {
         <h1>Contact</h1>
         <hr />
         <p className='mb-0'>
-          <h3>Email:</h3> jazzi.lyn217@gmail.com
-          <h3>GitHub:</h3>
+          <h3>Email: jazzi.lyn217@gmail.com </h3>
+          {' '}
+          <Button variant='secondary' href='/'>LinkedIn</Button>{' '}
+          <Button variant='secondary' href='www.github.com/jazminejose'>GitHub</Button>
         </p>
       </Alert>
 

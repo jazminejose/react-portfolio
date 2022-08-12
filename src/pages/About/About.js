@@ -13,7 +13,7 @@ const About = () => {
         <p><img src={selfie} alt='selfie' /></p>
         <p>Welcome to my react portfolio!</p>
         <p>Majored in Psychology but switched it up and now I am aspiring web developer.</p>
-        <p>Currently attending UCI Coding Bootcamp.</p>
+        <p>Full Stack Web Developer.</p>
         <p>Cant wait to use my new found skillset in the world of coding.</p>
 
         <hr />
